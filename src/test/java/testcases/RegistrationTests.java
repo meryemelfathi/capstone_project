@@ -1,15 +1,21 @@
 package testcases;
 
+import library.Reports;
 import library.SelectBrowser;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pages.AccountPage;
 import pages.HomePage;
 import pages.SignInPage;
 
+import java.io.IOException;
 import java.time.Duration;
+
+import static library.Reports.setUpReport;
 
 public class RegistrationTests {
 
@@ -19,6 +25,10 @@ public class RegistrationTests {
     HomePage homePage;
     AccountPage accountPage;
     SignInPage signInPage;
+    @BeforeSuite
+    public void launchReport() {
+        setUpReport("RegistrationTests.html");
+    }
 
 
 
@@ -106,7 +116,13 @@ public class RegistrationTests {
         signInPage.clickRegister();
     }
 
+    @AfterTest
+    public void closeBrowser() throws IOException {
 
+        Reports.tearDown();
+        driver.quit();
+
+    }
 
 
 
