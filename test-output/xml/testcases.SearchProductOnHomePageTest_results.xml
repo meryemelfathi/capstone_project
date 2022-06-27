@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ElFathi_Meryem_Capstone_Project"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="54.004">
+    <properties></properties>
+
+
+
+            <testcase
+                name="matchSearchWordAndSearchResult"
+                time="24.045"
+                classname="testcases.SearchProductOnHomePageTest">
+            </testcase>
+            <testcase
+                name="verifySearchResultWithNullSearchText"
+                time="29.959"
+                classname="testcases.SearchProductOnHomePageTest">
+            </testcase>
+</testsuite>

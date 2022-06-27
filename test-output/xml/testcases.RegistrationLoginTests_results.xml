@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ElFathi_Meryem_Capstone_Project"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.833">
+    <properties></properties>
+
+
+
+            <testcase
+                name="registrationPage"
+                time="2.796"
+                classname="testcases.RegistrationTests">
+            </testcase>
+            <testcase
+                name="passwordValidation"
+                time="2.037"
+                classname="testcases.RegistrationTests">
+            </testcase>
+</testsuite>
