@@ -61,7 +61,7 @@ public class RegistrationTests {
 
 
     //test2 : verify register new user
-    @Test (enabled = false)
+    @Test
     public void registration() {
 
         //test = reports.createTest("registration", "Test Passed");
@@ -69,7 +69,7 @@ public class RegistrationTests {
 
         signInPage.enterFirstName("meryem");
         signInPage.enterLastName("el fathi");
-        signInPage.enterEmail("meryemElFathi@gmail.com");
+        signInPage.enterEmail("meryemElFathi1@gmail.com");
         signInPage.enterPassword("abc123");
 
         signInPage.clickRegister();
@@ -77,7 +77,7 @@ public class RegistrationTests {
     }
 
     //test3 : email validation
-    @Test (enabled = false)
+    @Test
     public void emailValidation() {
 
 
@@ -92,7 +92,7 @@ public class RegistrationTests {
     }
 
     //test4 : Required / mandatory fields
-    @Test (enabled = false)
+    @Test
     public void mandatoryFields() {
 
 
@@ -102,7 +102,7 @@ public class RegistrationTests {
 
     //test5 : Verify if the password required rules are not satisfied in the password
 
-    @Test (priority = 2)
+    @Test
     public void passwordValidation() {
 
 
