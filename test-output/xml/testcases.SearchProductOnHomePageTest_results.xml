@@ -4,19 +4,19 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="54.004">
+           time="55.717">
     <properties></properties>
 
 
 
             <testcase
-                name="matchSearchWordAndSearchResult"
-                time="24.045"
+                name="verifySearchResultWithNullSearchText"
+                time="30.090"
                 classname="testcases.SearchProductOnHomePageTest">
             </testcase>
             <testcase
-                name="verifySearchResultWithNullSearchText"
-                time="29.959"
+                name="matchSearchWordAndSearchResult"
+                time="25.627"
                 classname="testcases.SearchProductOnHomePageTest">
             </testcase>
 </testsuite>

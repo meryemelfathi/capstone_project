@@ -11,11 +11,11 @@
     <!--            <class name="testcases.LoginRegisteredUserTest"/>-->
     <!--        </classes>-->
     <!--    </test>-->
-    <!--    <test name="Product Search Test">-->
-    <!--        <classes>-->
-    <!--            <class name="testcases.SearchProductsTest"/>-->
-    <!--        </classes>-->
-    <!--    </test>-->
+        <test name="Product Search Test">
+            <classes>
+                <class name="testcases.SearchProductOnHomePageTest"/>
+            </classes>
+        </test>
     <!--    <test name="Shopping Cart  Test">-->
     <!--        <classes>-->
     <!--            <class name="testcases.ProductAddToCartTest"/>-->

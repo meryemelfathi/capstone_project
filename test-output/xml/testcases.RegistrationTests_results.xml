@@ -4,29 +4,29 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="116.589">
+           time="128.207">
     <properties></properties>
 
 
 
             <testcase
-                name="registrationPage"
-                time="2.946"
-                classname="testcases.RegistrationTests">
-            </testcase>
-            <testcase
                 name="passwordValidation"
-                time="33.030"
+                time="33.145"
                 classname="testcases.RegistrationTests">
             </testcase>
             <testcase
-                name="registration"
-                time="47.405"
+                name="registrationPage"
+                time="4.147"
                 classname="testcases.RegistrationTests">
             </testcase>
             <testcase
                 name="emailValidation"
-                time="33.208"
+                time="43.702"
+                classname="testcases.RegistrationTests">
+            </testcase>
+            <testcase
+                name="registration"
+                time="47.213"
                 classname="testcases.RegistrationTests">
             </testcase>
 </testsuite>
