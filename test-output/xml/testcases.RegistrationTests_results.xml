@@ -1,22 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="ElFathi_Meryem_Capstone_Project"
-           tests="2"
+           tests="4"
            failures="0"
            errors="0"
            skipped="0"
-           time="6.482">
+           time="116.589">
     <properties></properties>
 
 
 
             <testcase
                 name="registrationPage"
-                time="3.677"
+                time="2.946"
                 classname="testcases.RegistrationTests">
             </testcase>
             <testcase
                 name="passwordValidation"
-                time="2.805"
+                time="33.030"
+                classname="testcases.RegistrationTests">
+            </testcase>
+            <testcase
+                name="registration"
+                time="47.405"
+                classname="testcases.RegistrationTests">
+            </testcase>
+            <testcase
+                name="emailValidation"
+                time="33.208"
                 classname="testcases.RegistrationTests">
             </testcase>
 </testsuite>
