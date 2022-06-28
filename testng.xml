@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite1">
+    <test name="Product Search Test">
+        <classes>
+            <class name="testcases.SearchProductOnHomePageTest"/>
+        </classes>
+    </test>
     <test name="Registration Test">
         <classes>
             <class name="testcases.RegistrationTests"/>
@@ -11,11 +16,7 @@
     <!--            <class name="testcases.LoginRegisteredUserTest"/>-->
     <!--        </classes>-->
     <!--    </test>-->
-        <test name="Product Search Test">
-            <classes>
-                <class name="testcases.SearchProductOnHomePageTest"/>
-            </classes>
-        </test>
+
     <!--    <test name="Shopping Cart  Test">-->
     <!--        <classes>-->
     <!--            <class name="testcases.ProductAddToCartTest"/>-->

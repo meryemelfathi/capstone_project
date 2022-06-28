@@ -84,7 +84,7 @@ public class RegistrationTests {
 
         signInPage.enterFirstName("meryem");
         signInPage.enterLastName("el fathi");
-        signInPage.enterEmail("meryemElFathi022@gmail.com");
+        signInPage.enterEmail("meryemElFathi023@gmail.com");
         signInPage.enterPassword("abc123");
         Reports.takeScreenShot(driver, System.getProperty("user.dir") + "/test-output/TC2-img2.jpg");
         Reports.test.addScreenCaptureFromPath("TC2-img2.jpg");
